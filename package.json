@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "type": "module",
+  "module": "commonjs",
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "tsc -p tsconfig.server.json",
